@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'My font';
+    src: url(font.woff2);
+}
+
+* {
+    font-family: 'My font';
+}
+
+.app{
+    border: 45px solid;
+    border-image: linear-gradient(to top right,#EBD9DA,#ECECDB,#C6E0D9,#BACAD9 ) 4;
+}
